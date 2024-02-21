@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.pipeline import Pipeline
+# from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
-from sklearn.feature_selection import SelectKBest, chi2
+# from sklearn.feature_selection import SelectKBest, chi2
 
 st.header("Model used:")
 st.write("Linear Regression")
